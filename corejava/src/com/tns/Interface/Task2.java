@@ -32,7 +32,7 @@ class SmartVehical implements GPS, VehicalSafety {
 
     @Override
     public void detectcollision() {
-        collisionDetection = false;
+        collisionDetection = true;
 
         if (collisionDetection) {
             System.out.println("WARNING: Collision Detected");

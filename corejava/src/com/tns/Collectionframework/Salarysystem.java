@@ -30,6 +30,5 @@ public static void main(String[] args) {
 	//between
 	System.out.println(t.subSet(1000, 20000));
 	
-
 }
 }
